@@ -1,0 +1,20 @@
+{
+    "name": "ming/composer-car",
+    "description": "This is a demo for build composer packagist",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "王明",
+            "email": "809527891@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Ford\\Escape\\": "src/Ford/Escape",
+            "Ford\\Fiesta\\": "src/Ford/Fiesta"
+        }
+    }
+}
